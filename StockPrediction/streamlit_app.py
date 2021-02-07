@@ -67,7 +67,9 @@ st.write("""
 """)
 predicted=pd.DataFrame(predicted_price,columns=["Predicted price"],index=ts_test.index)       # Calculate the error
 st.dataframe(predicted)
-
+st.write("""
+\n\n\n
+""")
 # Plot the Actual price and the predicted price
 plt.figure(figsize=(12, 12), dpi=80, facecolor = 'w', edgecolor = 'k')
 
