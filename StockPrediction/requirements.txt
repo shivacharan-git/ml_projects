@@ -1,7 +1,7 @@
 yfinance==0.1.54
 pandas==1.2.1
 Keras==2.4.3
-numpy==1.19.5
+numpy==1.22.0
 matplotlib==3.2.1
 streamlit==0.76.0
 scikit_learn==0.24.1
